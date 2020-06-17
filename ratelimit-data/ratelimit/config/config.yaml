@@ -1,0 +1,7 @@
+---
+domain: example
+descriptors:
+  - key: remote_address
+    rate_limit:
+      requests_per_unit: 1
+      unit: minute
